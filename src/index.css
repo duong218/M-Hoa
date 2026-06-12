@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import "tailwindcss";
+
+:root {
+  /* Default Theme: Autumn Harvest (Warm Organic / Cultural) */
+  --theme-cream: #FDF8F0;
+  --theme-warm-white: #FFFBF5;
+  --theme-peach: #F4A87C;
+  --theme-peach-hover: #E09367;
+  --theme-blush: #F2C4B3;
+  --theme-butter: #F5D98F;
+  --theme-sage: #A8B89A;
+  --theme-ink: #2D2420;
+  --theme-muted: #7A6B5D;
+  --theme-light-text: #B5A99A;
+  --theme-warm-border: #E8DDD2;
+}
+
+:root[data-theme="valentines"] {
+  /* Valentine / Love (Crimson & Rosy Blush) */
+  --theme-cream: #FFF5F6;
+  --theme-warm-white: #FFFAFB;
+  --theme-peach: #DF4B5E;
+  --theme-peach-hover: #C53748;
+  --theme-blush: #FFD3D7;
+  --theme-butter: #FCD5D9;
+  --theme-sage: #B09498;
+  --theme-ink: #3D1C20;
+  --theme-muted: #7C565B;
+  --theme-light-text: #BCA4A7;
+  --theme-warm-border: #F3E0E2;
+}
+
+:root[data-theme="spring"] {
+  /* Spring Meadow (Emerald Garden & Daffodil) */
+  --theme-cream: #F5FAF6;
+  --theme-warm-white: #FAFFFC;
+  --theme-peach: #4A8C66;
+  --theme-peach-hover: #376E4E;
+  --theme-blush: #CCE8D5;
+  --theme-butter: #FFDD6B;
+  --theme-sage: #7B9E78;
+  --theme-ink: #192D21;
+  --theme-muted: #4B6E53;
+  --theme-light-text: #8EAE96;
+  --theme-warm-border: #DFEADF;
+}
+
+:root[data-theme="winter"] {
+  /* Cozy Winter (Soft Elegant Blue / Frosty Sapphire) */
+  --theme-cream: #EBF3F8;
+  --theme-warm-white: #F4F8FB;
+  --theme-peach: #2B6CB0;
+  --theme-peach-hover: #1D4ED8;
+  --theme-blush: #D2E4F2;
+  --theme-butter: #E2E8F0;
+  --theme-sage: #5A738E;
+  --theme-ink: #0F2537;
+  --theme-muted: #4A607A;
+  --theme-light-text: #8CA2BA;
+  --theme-warm-border: #D2E4F1;
+}
+
+@theme {
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "DM Sans", sans-serif;
+  --font-handwritten: "Caveat", cursive;
+  
+  --color-cream: var(--theme-cream);
+  --color-warm-white: var(--theme-warm-white);
+  --color-peach: var(--theme-peach);
+  --color-peach-hover: var(--theme-peach-hover);
+  --color-blush: var(--theme-blush);
+  --color-butter: var(--theme-butter);
+  --color-sage: var(--theme-sage);
+  --color-ink: var(--theme-ink);
+  --color-muted: var(--theme-muted);
+  --color-light-text: var(--theme-light-text);
+  --color-warm-border: var(--theme-warm-border);
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+  .font-sans {
+    font-family: var(--font-sans);
+  }
+  .font-handwritten {
+    font-family: var(--font-handwritten);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--theme-cream);
+  color: var(--theme-ink);
+  font-family: "DM Sans", sans-serif;
+  overflow-x: hidden;
+  transition: background-color 0.6s cubic-bezier(0.16, 1, 0.3, 1), color 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Global Transition on theme color variable changes for ultimate smooth switching experience */
+header, footer, section, div, button, a, svg, span, h1, h2, h3, h4, h5, h6, input {
+  transition: background-color 0.6s cubic-bezier(0.16, 1, 0.3, 1), 
+              border-color 0.6s cubic-bezier(0.16, 1, 0.3, 1), 
+              color 0.6s cubic-bezier(0.16, 1, 0.3, 1), 
+              fill 0.6s cubic-bezier(0.16, 1, 0.3, 1), 
+              stroke 0.6s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Custom scroll reveal and transition helpers */
+.transition-all-custom {
+  transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Animations */
+@keyframes float-petal-1 {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(15px, -25px) rotate(15deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes float-petal-2 {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(-20px, -15px) rotate(-20deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.6; }
+  50% { transform: scale(1.15); opacity: 0; }
+  100% { transform: scale(1); opacity: 0.6; }
+}
+
+.animate-float-1 {
+  animation: float-petal-1 12s ease-in-out infinite;
+}
+
+.animate-float-2 {
+  animation: float-petal-2 15s ease-in-out infinite;
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2.5s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+/* Custom scroll bar styling */
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+/* Vintage wax seal — testimonial identity (no images) */
+.wax-seal {
+  --wax-primary: #c58f72;
+  --wax-secondary: #d9b29a;
+  --wax-light: #ead7c7;
+  --wax-dark: #9e6e56;
+
+  position: relative;
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--wax-primary);
+  color: #fff9f4;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 0 rgba(158, 110, 86, 0.4);
+  border: 2px solid var(--wax-dark);
+  box-shadow:
+    0 2px 3px rgba(45, 36, 32, 0.1),
+    0 5px 12px rgba(158, 110, 86, 0.2),
+    inset 0 2px 3px rgba(234, 215, 199, 0.5),
+    inset 0 -4px 7px rgba(158, 110, 86, 0.38);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.wax-seal::before {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  border-radius: 50%;
+  border: 1px solid rgba(234, 215, 199, 0.55);
+  pointer-events: none;
+}
+
+.wax-seal::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  opacity: 0.9;
+  background:
+    radial-gradient(circle at 28% 22%, rgba(234, 215, 199, 0.28) 0%, transparent 48%),
+    radial-gradient(circle at 72% 78%, rgba(158, 110, 86, 0.18) 0%, transparent 45%),
+    repeating-radial-gradient(
+      circle at 50% 50%,
+      transparent 0,
+      transparent 2px,
+      rgba(158, 110, 86, 0.03) 2px,
+      rgba(158, 110, 86, 0.03) 3px
+    );
+}
+
+.wax-seal__letter {
+  position: relative;
+  z-index: 1;
+}
+
+.wax-seal--initials {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+}
+
+@media (min-width: 640px) {
+  .wax-seal {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 1.15rem;
+  }
+
+  .wax-seal--initials {
+    font-size: 0.78rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .wax-seal {
+    width: 4rem;
+    height: 4rem;
+    font-size: 1.25rem;
+  }
+
+  .wax-seal--initials {
+    font-size: 0.85rem;
+  }
+}
+
+.testimonial-identity:hover .wax-seal,
+.testimonial-identity:focus-within .wax-seal {
+  transform: translateY(-2px);
+  box-shadow:
+    0 4px 6px rgba(45, 36, 32, 0.12),
+    0 9px 18px rgba(158, 110, 86, 0.26),
+    inset 0 2px 3px rgba(234, 215, 199, 0.5),
+    inset 0 -4px 7px rgba(158, 110, 86, 0.38);
+}
+
+.testimonial-trust {
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.625rem;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  color: #7a6b5d;
+  max-width: 12rem;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FDF8F0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8DDD2;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C4B5A5;
+}

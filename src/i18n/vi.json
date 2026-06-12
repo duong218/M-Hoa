@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "gallery": "Bộ sưu tập",
+    "services": "Dịch vụ",
+    "process": "Quy trình",
+    "faq": "Hỏi đáp",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "headline": "Mỗi bó hoa — một câu chuyện của bạn",
+    "sub": "Grow, glow, and bloom.",
+    "body": "Bằng tất cả đam mê tỉ mỉ từ năm 2023, Mê Hoa mang đến từng mẫu hoa tinh tế với mức giá cực kỳ hợp lý, Content chạm cảm xúc và dịch vụ tận tâm chu đáo.",
+    "cta_primary": "Đặt hoa ngay",
+    "cta_secondary": "Xem bộ sưu tập"
+  },
+  "about": {
+    "title": "Về Mê Hoa",
+    "headline": "Từ đam mê thành nghề gửi gắm yêu thương",
+    "p1": "Ra đời từ năm 2023 tại Hà Nội, Mê Hoa không chỉ bán hoa mà là nơi thêu dệt những câu chuyện tình cảm của khách hàng qua từng cành lá, đoá hoa tươi tắn nhất.",
+    "p2": "Chúng tôi biết rằng mỗi dịp đặc biệt như Valentine, 8/3, 20/10 hay đơn giản chỉ là một ngày thường nhật đều chứa đựng những gửi gắm riêng biệt. Vì vậy, mỗi sản phẩm tại Mê Hoa đều được trau chuốt tỉ mỉ từ khâu chọn hoa, lên ý tưởng nội dung thiệp cho tới dịch vụ chăm sóc hoàn hảo tuyệt đối.",
+    "diff_title": "Tại sao chọn Mê Hoa?",
+    "diff1_title": "Giá cả hợp lý",
+    "diff1_desc": "Mức giá phổ biến vô cùng dễ tiếp cận từ 200k – 500k, hoa chất lượng xịn, thiết kế có gu và đầy đặn.",
+    "diff2_title": "Content độc bản và chất",
+    "diff2_desc": "Không chỉ là trao hoa, chúng tôi giúp bạn truyền tải trọn vẹn thông điệp bằng thông tin ý nghĩa, hoa làm theo phong cách riêng.",
+    "diff3_title": "Phục vụ chu đáo tận tình",
+    "diff3_desc": "Hỗ trợ thiết kế theo mong muốn, chụp ảnh duyệt trước khi giao hàng, ship nội thành HN siêu tốc."
+  },
+  "services": {
+    "title": "Dịch vụ",
+    "headline": "Những gì Mê Hoa làm tốt nhất",
+    "desc": "Các mẫu hoa được thiết kế đa dạng theo phong cách Vintage lãng mạn & Đơn giản tinh tế, thích hợp cho mọi dịp lễ hội, quà tặng.",
+    "price_from": "Giá tham khảo: Từ 200k",
+    "bouquet_name": "Bó Hoa Tinh Tế",
+    "bouquet_desc": "Kiểu dáng bó tròn, bó dài phối màu nhã nhặn, phù hợp làm quà tặng sinh nhật, kỷ niệm, lễ tốt nghiệp rạng rỡ.",
+    "basket_name": "Giỏ Hoa & Hộp Hoa",
+    "basket_desc": "Mang phong cách cổ điển thanh lịch, phù hợp trưng bày bàn làm việc, phòng khách hoặc tặng đối tác sang trọng.",
+    "stand_name": "Kệ Hoa Khai Trương",
+    "stand_desc": "Thiết kế cao ráo, vững chãi, quy tụ bộ hoa rực rỡ tượng trưng cho sự thịnh vượng, phát đạt và may mắn.",
+    "wedding_name": "Hoa Cưới Cầm Tay",
+    "wedding_desc": "Sự kết hợp tinh tuyển, dịu dàng đồng hành cùng cô dâu trong ngày trọng đại nhất cuộc đời."
+  },
+  "gallery": {
+    "title": "Bộ sưu tập",
+    "headline": "Sản phẩm thực tế có gu",
+    "sub": "Được chọn lọc từ hàng ngàn mẫu hoa rực rỡ chúng tôi thực hiện hàng ngày cho khách hàng thân yêu.",
+    "more_cta": "Xem thêm ảnh trên Facebook"
+  },
+  "process": {
+    "title": "Quy trình",
+    "headline": "Mua hoa chưa bao giờ dễ dàng đến thế",
+    "badge": "Đặt trước 1–2 ngày để có sự chuẩn bị tốt nhất | Nhận đơn gấp tối thiểu từ 1–2 tiếng",
+    "step1_title": "1. Nhắn tin tư vấn",
+    "step1_desc": "Trò chuyện qua Zalo, Facebook hoặc Gmail. Chúng tôi lắng nghe ý tưởng, ngân sách và gợi ý mẫu hoa phù hợp.",
+    "step2_title": "2. Chốt mẫu & Giá",
+    "step2_desc": "Xác nhận mẫu mã, nội dung thiệp, ngày giờ và vị trí nhận hoa. Tổng chi phí rõ ràng, không phụ phí phát sinh.",
+    "step3_title": "3. Duyệt ảnh thực tế",
+    "step3_desc": "Sau khi cắm xong, Mê Hoa chụp cận cảnh thành phẩm gửi bạn duyệt. Chỉ giao đi khi bạn hoàn toàn hài lòng.",
+    "step4_title": "4. Ship tận nơi",
+    "step4_desc": "Giao hỏa tốc nội thành Hà Nội trong bán kính 15km bằng shipper chuyên chở hoa, giữ form hoa hoàn hảo.",
+    "step5_title": "5. Chu đáo sau nhận",
+    "step5_desc": "Gửi kèm tài liệu hướng dẫn dưỡng hoa tươi lâu và hỗ trợ xử lý mọi thắc mắc của bạn sau khi nhận hoa."
+  },
+  "faq": {
+    "title": "Hỏi đáp",
+    "headline": "Câu hỏi thường gặp",
+    "q1": "Mức giá trung bình của các sản phẩm tại Mê Hoa là bao nhiêu?",
+    "a1": "Mê Hoa có đa dạng mức giá từ 200.000đ trở lên, phổ biến nhất trong khoảng 200k - 500k, phù hợp với túi tiền học sinh, sinh viên và người đi làm mà hoa vẫn rất đầy đặn, thiết kế tinh xảo.",
+    "q2": "Shop có dịch vụ giao hàng tận nơi không? Khu vực nào?",
+    "a2": "Có! Chúng tôi nhận giao hoa nội thành Hà Nội trong bán kính 15km. Phí giao hàng sẽ được tính theo phí hiển thị của các ứng dụng giao hàng công nghệ tại thời điểm gửi.",
+    "q3": "Tôi cần đặt trước hoa trong bao lâu?",
+    "a3": "Lý tưởng nhất là bạn nên đặt trước từ 1 - 2 ngày để shop chọn được hoa tươi nhất và chuẩn bị chu đáo nhất. Với các đơn hàng gấp, Mê Hoa hỗ trợ hoàn thiện tối thiểu trong vòng 1 - 2 tiếng.",
+    "q4": "Tôi có được đặt làm theo tone màu và loại hoa yêu cầu không?",
+    "a4": "Hoàn toàn có thể! Hãy chia sẻ tone màu bạn thích. Trường hợp loại hoa cụ thể không vào đúng mùa, Mê Hoa sẽ tư vấn các loại hoa thay thế cùng tone màu và giá trị tương đương để đảm bảo tính thẩm mỹ.",
+    "q5": "Hình thức thanh toán tại shop như thế nào?",
+    "a5": "Bạn có thể thanh toán linh hoạt qua chuyển khoản ngân hàng (khuyên dùng khi tặng hoa cho người khác) hoặc thanh toán tiền mặt lúc nhận hàng (Ship COD)."
+  },
+  "contact": {
+    "title": "Liên hệ đặt hoa",
+    "subtitle": "Nhắn tin để nhận tư vấn nhanh chóng, nhiệt tình và chu đáo từ Mê Hoa",
+    "button_zalo": "Zalo Tư Vấn",
+    "button_fb": "Facebook Page",
+    "button_ig": "Gửi Gmail",
+    "location_badge": "Khu vực: Nội thành Hà Nội (Bán kính 15km)",
+    "noted": "ƯU ĐÃI: Tặng kèm thiệp thiết kế riêng tay viết ý nghĩa cho mọi đơn đặt hàng."
+  },
+  "footer": {
+    "tagline": "Grow, glow, and bloom.",
+    "rights": "© 2026 Mê Hoa. Tất cả quyền được bảo lưu.",
+    "quickLinks": "Liên kết"
+  }
+}

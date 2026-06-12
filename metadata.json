@@ -1,0 +1,6 @@
+{
+  "name": "Mê Hoa",
+  "description": "Cửa hàng hoa tươi tinh tế tại Hà Nội — Thể hiện câu chuyện của riêng bạn qua những bó hoa xịn đẹp mê.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

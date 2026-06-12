@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "gallery": "Gallery",
+    "services": "Services",
+    "process": "Process",
+    "faq": "FAQ",
+    "contact": "Contact"
+  },
+  "hero": {
+    "headline": "Every bouquet, a story of yours",
+    "sub": "Grow, glow, and bloom.",
+    "body": "Crafted with passion since 2023, Me Hoa delivers elegant floral arrangements with fair pricing, touching narratives, and a dedicated, sweet customer service.",
+    "cta_primary": "Order Flowers Now",
+    "cta_secondary": "Explore Gallery"
+  },
+  "about": {
+    "title": "About Us",
+    "headline": "From Passion to Floristry, Delivering Love",
+    "p1": "Established in 2023 in Hanoi, Me Hoa is not just selling flowers; it is a space where your emotions and stories are beautifully woven into every fresh leaf and glowing bloom.",
+    "p2": "We understand that special occasions like Valentine's Day, March 8th, October 20th, or even a random sweet morning carry a unique sentiment. That is why every single product at Me Hoa is meticulously crafted, from select fresh flowers to bespoke greeting card writing and reliable service.",
+    "diff_title": "Why Choose Me Hoa?",
+    "diff1_title": "Fair Pricing",
+    "diff1_desc": "Super affordable budgets ranging from 200k – 500k VND, yet assuring high-quality blossoms and graceful creations.",
+    "diff2_title": "Touching & Personalized Content",
+    "diff2_desc": "More than just wrapping bouquets, we help convey your direct messages through thoughtful storytelling and personalized advice.",
+    "diff3_title": "Attentive Services",
+    "diff3_desc": "Tailor-made designs, high-resolution final product photo previews before dispatch, and speedy delivery across Hanoi."
+  },
+  "services": {
+    "title": "Services",
+    "headline": "What Me Hoa Does Best",
+    "desc": "A curated variety of products styled with romantic vintage and sophisticated minimalist aesthetics, perfect for any special celebrations or random surprises.",
+    "price_from": "Reference Price: From 200k VND",
+    "bouquet_name": "Exquisite Bouquets",
+    "bouquet_desc": "Charming rounded or long bouquets with gentle color grading, ideal for birthdays, anniversaries, and bright graduations.",
+    "basket_name": "Baskets & Gift Boxes",
+    "basket_desc": "Elegant and classic arrangements, perfectly suitable for work desks, living rooms, or professional partner presents.",
+    "stand_name": "Grand Flower Stands",
+    "stand_desc": "Tall, grand floral displays symbolizing prosperity, growth, and good luck for grand openings and large events.",
+    "wedding_name": "Bespoke Bridal Bouquets",
+    "wedding_desc": "Handpicked delicate compositions, walking besides brides on the most romantic walk of their lives."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "headline": "Our Floral Creations",
+    "sub": "A showcase of actual floral styling selected from thousands of sweet orders we create daily for our valued customers.",
+    "more_cta": "Browse More on Facebook"
+  },
+  "process": {
+    "title": "Process",
+    "headline": "Ordering Flowers Has Never Been Easier",
+    "badge": "Pre-order 1–2 days in advance for best care | Urgent orders supported: 1–2 hours minimum",
+    "step1_title": "1. Text & Share",
+    "step1_desc": "Chat with us via Zalo, Facebook, or Gmail. We discuss your ideal style, occasion, budget, and recommend matching florals.",
+    "step2_title": "2. Confirm & Pay",
+    "step2_desc": "Confirm your final design, custom greeting card content, delivery schedule, and address details without any hidden surcharges.",
+    "step3_title": "3. Photo Check",
+    "step3_desc": "Once assembled, Me Hoa sends you real-time photo checks of the final arrangement. We only dispatch when you are 100% happy.",
+    "step4_title": "4. Secure Delivery",
+    "step4_desc": "Express shipping up to a 15km radius in Hanoi by professional flower carriers to keep the product absolutely flawless.",
+    "step5_title": "5. Ongoing Support",
+    "step5_desc": "Receive helpful care tips to keep your blooms fresh and vibrant for days, coupled with our caring after-sales client assistance."
+  },
+  "faq": {
+    "title": "FAQ",
+    "headline": "Frequently Asked Questions",
+    "q1": "What is the average price range of products at Me Hoa?",
+    "a1": "Me Hoa offers a wide price selection starting from 200,000 VND, most commonly within the 200k - 500k range. Highly accessible for students and office workers while maintaining excellent volume and design.",
+    "q2": "Do you offer home delivery? Which areas?",
+    "a2": "Yes! We deliver across Hanoi inner city districts within a 15km radius. Delivery fees are calculated directly based on the active ride-hailing app rates at delivery time.",
+    "q3": "How far in advance should I order?",
+    "a3": "Ideally, 1 - 2 days beforehand so we can source the freshest flowers. For urgent needs, we support express orders in 1 - 2 hours minimum.",
+    "q4": "Can I custom order colors or specific floral details?",
+    "a4": "Absolutely! Feel free to share your preferred color tones. If a specific flower is out of season, we will advise on similar substitute flowers of the same value to preserve the look.",
+    "q5": "What payment methods are supported?",
+    "a5": "We accept bank bank transfers (highly recommended when sending flowers as a surprise gift) or cash on delivery (COD)."
+  },
+  "contact": {
+    "title": "Order Flowers",
+    "subtitle": "Get in touch for quick, warm, and highly personalized advice from our team",
+    "button_zalo": "Zalo Chat",
+    "button_fb": "Facebook Page",
+    "button_ig": "Send Email",
+    "location_badge": "Service Area: Inner Hanoi districts (15km radius)",
+    "noted": "SPECIAL OFFER: Complimentary custom designed, hand-written greeting cards for all flower orders."
+  },
+  "footer": {
+    "tagline": "Grow, glow, and bloom.",
+    "rights": "© 2026 Me Hoa. All rights reserved.",
+    "quickLinks": "Quick Links"
+  }
+}
