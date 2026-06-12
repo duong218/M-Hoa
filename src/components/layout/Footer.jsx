@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
-import { Flower2, Mail, MapPin } from 'lucide-react';
-import { CONTACT } from '../../data/config';
+import { Mail, MapPin } from 'lucide-react';
+import { BRAND, CONTACT } from '../../data/config';
+import BrandMark from '../ui/BrandMark';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -20,12 +21,9 @@ export default function Footer() {
           
           {/* Col 1: Shop Brand */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <Flower2 className="text-peach" size={24} />
-              <span className="font-serif text-2xl font-medium tracking-wider text-ink">
-                Mê Hoa
-              </span>
-            </div>
+            <a href="#" className="inline-flex items-center group" aria-label={BRAND.logoAlt}>
+              <BrandMark variant="footer" />
+            </a>
             <p className="font-serif italic text-muted text-lg tracking-wide">
               "{t('hero.sub')}"
             </p>

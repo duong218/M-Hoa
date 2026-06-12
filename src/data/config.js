@@ -1,3 +1,10 @@
+import brandLogo from '../public/images/logo/logo.jpg';
+
+export const BRAND = {
+  logoSrc: brandLogo,
+  logoAlt: 'Mê Hoa — Grow, glow, and bloom.',
+};
+
 export const CONTACT = {
   // Main representative telephone/Zalo number
   zaloNumber: "0989601832",

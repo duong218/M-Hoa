@@ -24,6 +24,7 @@ import Contact from './components/sections/Contact';
 
 // Floating action items
 import FloatingCTA from './components/ui/FloatingCTA';
+import { BRAND } from './data/config';
 
 export default function App() {
   const { i18n } = useTranslation();
@@ -49,6 +50,7 @@ export default function App() {
       <Helmet>
         <html lang={isEn ? "en" : "vi"} />
         <title>{seo.title}</title>
+        <link rel="icon" type="image/jpeg" href={BRAND.logoSrc} />
         <meta name="description" content={seo.description} />
         <meta name="keywords" content={seo.keywords} />
         

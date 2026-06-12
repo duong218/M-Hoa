@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence, useScroll, useSpring } from 'motion/react';
-import { Menu, X, Flower2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import { BRAND } from '../../data/config';
+import BrandMark from '../ui/BrandMark';
 import LanguageSwitcher from '../ui/LanguageSwitcher';
 import ThemeToggler from '../ui/ThemeToggler';
 import SearchBar from '../ui/SearchBar';
@@ -54,14 +56,16 @@ export default function Navbar() {
         />
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-12">
+          <div className="flex items-center justify-between min-h-14">
             
             {/* Logo */}
-            <a href="#" className="flex items-center gap-2 group cursor-pointer" id="logo-nav">
-              <Flower2 className="text-peach group-hover:rotate-45 transition-transform duration-700 ease-out" size={24} />
-              <span className="font-serif text-2xl font-medium tracking-wider text-ink group-hover:text-peach transition-colors duration-300">
-                Mê Hoa
-              </span>
+            <a
+              href="#"
+              className="flex items-center group cursor-pointer shrink-0"
+              id="logo-nav"
+              aria-label={BRAND.logoAlt}
+            >
+              <BrandMark variant="nav" />
             </a>
 
             {/* Desktop Navigation Links */}
