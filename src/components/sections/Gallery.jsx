@@ -315,7 +315,7 @@ function MobileGalleryItem({ img, index, onClick, currentLang }) {
       g3: { vi: 'Hoa lãng mạn', en: 'Sweet Rose' },
       g4: { vi: 'Hoa dại mộc mạc', en: 'Seasonal Mix' },
       g5: { vi: 'Giỏ hoa đan', en: 'Floral Basket' },
-      g6: { vi: 'Kệ hoa khai trương', en: 'Opening Stand' },
+      g6: { vi: 'Hoa khai trương đẹp', en: 'Beautiful Opening Bouquet' },
       g7: { vi: 'Hoa cưới cô dâu', en: 'Bridal Bouquet' },
       g8: { vi: 'Thược dược cổ điển', en: 'Retro Blooms' },
       g9: { vi: 'Bó hoa Tulip', en: 'Tulip Spray' },

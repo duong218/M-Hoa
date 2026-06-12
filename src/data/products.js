@@ -12,7 +12,7 @@ export const PRODUCTS_CATALOG = [
   {
     id: 'g2',
     type: 'gallery',
-    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280652/704586804_1425269849631470_5910983995615556514_n_d1gnsb.jpg',
+    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781282124/506048581_1131292112362580_3594043951515002885_n_ox9rrx.jpg',
     altVi: 'Bông hoa hướng dương ấm áp rạng rỡ',
     altEn: 'Warm and bright aesthetic sunflower bouquet',
     descVi: 'Hướng dương tượng trưng cho niềm hy vọng ngập tràn, thắp sáng ngày mới bằng vẻ rạng rỡ ấm áp tinh khiết.',
@@ -22,7 +22,7 @@ export const PRODUCTS_CATALOG = [
   {
     id: 'g3',
     type: 'gallery',
-    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280655/719159788_1443908871100901_6497161042862810833_n_p7npkq.jpg',
+    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280651/645493983_1355518653273257_5845709556103482512_n_ittwm0.jpg',
     altVi: 'Bó hoa hồng phấn nhẹ nhàng tình cảm',
     altEn: 'Soft pastel pink roses gentle bouquet',
     descVi: 'Màu hồng phấn nhu mì, mộng mơ, thể hiện tình cảm dịu dàng, lãng mạn nâng niu cho ngày kỷ niệm của đôi lứa.',
@@ -32,7 +32,7 @@ export const PRODUCTS_CATALOG = [
   {
     id: 'g4',
     type: 'gallery',
-    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280651/645324279_1355518626606593_4995442466212216952_n_f6xdxk.jpg',
+    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280649/644910046_1355518663273256_908765343331911023_n_v3k9zj.jpg',
     altVi: 'Các loại hoa phối mộc mạc tinh tuyển',
     altEn: 'Finely selected rustic mix of seasonal flowers',
     descVi: 'Sự kết hợp tự tay sấy nhạt và lựa chọn các hoa dại, hoa nhập mang hơi thở đồng nội bình yên tao nhã.',
@@ -42,17 +42,17 @@ export const PRODUCTS_CATALOG = [
   {
     id: 'g5',
     type: 'gallery',
-    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781281454/616816655_1319444923547297_5541421821243858457_n_yhe7cs.jpg',
+    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781283771/520887104_1166410892184035_7478840128560878130_n_qdgydx.jpg',
     altVi: 'Giỏ hoa vintage phong cách châu Âu',
     altEn: 'Vintage flower basket in European style',
-    descVi: 'Giỏ hoa xách tay đan mây mộc mạc phong cách quý tộc châu Âu, chứa đựng những đoá hồng trà quyến rũ dạt dào.',
+    descVi: 'Giỏ hoa xách tay mây mộc mạc phong cách quý tộc châu Âu, chứa đựng những đoá hồng trà quyến rũ dạt dào.',
     descEn: 'A rustic hand-woven rattan basket in noble European style, filled with charming and rich tea roses.',
     aspect: 'aspect-[3/4]'
   },
   {
     id: 'g6',
     type: 'gallery',
-    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280650/646116720_1355518679939921_6849698748582503786_n_khlmh4.jpg',
+    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781284169/510209501_1138933294931795_268469716900932591_n_bgdput.jpg',
     altVi: 'Hoa khai trương đẹp tinh tế',
     altEn: 'Beautiful and elegant celebratory bouquet',
     descVi: 'Thiết kế độc đáo bay bổng và trang nhã đón lộc may mắn, khai trương hồng phát, vạn sự hanh thông như ý.',
@@ -62,7 +62,7 @@ export const PRODUCTS_CATALOG = [
   {
     id: 'g7',
     type: 'gallery',
-    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280649/526661397_1172111004947357_8569968006596842494_n_wu5lnw.jpg',
+    src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781282125/654802893_1372957981529324_8188237293957554648_n_forbak.jpg',
     altVi: 'Mẫu hoa cưới cầm tay cô dâu kiêu sa',
     altEn: 'Splendid and graceful bridal hand bouquet',
     descVi: 'Điểm xuyết những cành linh lan trắng, hoa hồng trắng tinh khôi giúp cô dâu tỏa sáng rạng ngời lộng lẫy nhất.',
