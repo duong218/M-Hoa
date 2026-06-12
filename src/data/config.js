@@ -24,13 +24,13 @@ export const CONTACT = {
 
 export const IMAGES = {
   // Image for the workspace / workshop in the About section
-  aboutWorkspace: "https://images.unsplash.com/photo-1599599810769-bcde5a160d32?q=80&w=800&auto=format&fit=crop",
+  aboutWorkspace: "https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280652/506052823_1133858278772630_9016655169123735905_n_pb79xo.jpg",
 
   // 4 Seasonal Images representing the 4 themes rotating in the Hero section
   seasonalHero: [
     {
       season: 'spring',
-      src: 'https://images.unsplash.com/photo-1522810489980-3485072f8836?q=80&w=800&auto=format&fit=crop',
+      src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280655/517382367_1157361483088976_1071128057293790504_n_yri6nk.jpg',
       titleVi: 'Xuân Tới Mới',
       titleEn: 'Fresh Spring',
       quoteVi: 'Mầm hoa sinh sôi, rạng rỡ nét xuân tràn lộc mới.',
@@ -38,7 +38,7 @@ export const IMAGES = {
     },
     {
       season: 'love',
-      src: 'https://images.unsplash.com/photo-1550950158-d0d960dff51b?q=80&w=800&auto=format&fit=crop',
+      src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280649/559239055_1233384055486718_5413593863278880311_n_rpc9cl.jpg',
       titleVi: 'Mùa Yêu Thương',
       titleEn: 'Season of Love',
       quoteVi: 'Hương hồng ngọt ngào, thắp lửa lãng mạn yêu thương.',
@@ -46,7 +46,7 @@ export const IMAGES = {
     },
     {
       season: 'autumn',
-      src: 'https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=800&auto=format&fit=crop',
+      src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280651/649375290_1363669385791517_247154252469953655_n_l5wctw.jpg',
       titleVi: 'Thu Mộc Mạc',
       titleEn: 'Rustic Autumn',
       quoteVi: 'Sắc cam ấm cúng, dịu êm hương đồng cỏ nội.',
@@ -54,7 +54,7 @@ export const IMAGES = {
     },
     {
       season: 'winter',
-      src: 'https://images.unsplash.com/photo-1549490349-8643362247b5?q=80&w=800&auto=format&fit=crop',
+      src: 'https://res.cloudinary.com/dfzhynopw/image/upload/q_auto/f_auto/v1781280650/595301241_1285897993568657_7653825400284979554_n_geegm5.jpg',
       titleVi: 'Đông Ấm Áp',
       titleEn: 'Cozy Winter',
       quoteVi: 'Sưởi ấm tâm hồn bằng sự quan tâm chân thành tinh tế.',

@@ -5,6 +5,8 @@ import { Search, X, Sparkles, ArrowRight, MessageCircle } from 'lucide-react';
 import { playClick, playChime } from '../../utils/audio';
 import { PRODUCTS_CATALOG } from '../../data/products';
 import { CONTACT } from '../../data/config';
+import { useLenis } from 'lenis/react';
+import { NAV_SCROLL_OFFSET } from '../../hooks/useLenis';
 
 // Helper to remove accents/diacritics for accents-insensitive Vietnamese search
 function normalizeString(str) {
@@ -24,6 +26,7 @@ export default function SearchBar() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   
   const containerRef = useRef(null);
+  const lenis = useLenis();
   const currentLang = i18n.language === 'en' ? 'en' : 'vi';
 
   // Sample quick suggestion terms
@@ -73,8 +76,10 @@ export default function SearchBar() {
     // Smooth scroll to parent section under the hood so page remains contextual
     const elementId = product.type === 'gallery' ? 'gallery' : 'services';
     const element = document.getElementById(elementId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    if (element && lenis) {
+      lenis.scrollTo(element, { offset: NAV_SCROLL_OFFSET });
+    } else if (element) {
+      element.scrollIntoView({ behavior: 'auto', block: 'start' });
     }
   };
 
@@ -147,7 +152,7 @@ export default function SearchBar() {
                 </div>
 
                 {results.length > 0 ? (
-                  <div className="divide-y divide-warm-border/40 max-h-[280px] overflow-y-auto pr-1">
+                  <div className="divide-y divide-warm-border/40 max-h-[280px] overflow-y-auto pr-1" data-lenis-prevent>
                     {results.map((product) => {
                       const title = currentLang === 'en' ? product.altEn : product.altVi;
                       const description = currentLang === 'en' ? product.descEn : product.descVi;

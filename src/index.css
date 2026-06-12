@@ -91,10 +91,6 @@
   }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background-color: var(--theme-cream);
   color: var(--theme-ink);

@@ -6,7 +6,8 @@
 import './i18n'; // Initialise bilingual dictionary files
 import { useTranslation } from 'react-i18next';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
-import { useLenis } from './hooks/useLenis';
+import { ReactLenis } from 'lenis/react';
+import { LENIS_OPTIONS } from './hooks/useLenis';
 
 // Layout structure
 import Navbar from './components/layout/Navbar';
@@ -26,12 +27,9 @@ import Contact from './components/sections/Contact';
 import FloatingCTA from './components/ui/FloatingCTA';
 import { BRAND } from './data/config';
 
-export default function App() {
+function AppContent() {
   const { i18n } = useTranslation();
   const isEn = i18n.language === 'en';
-
-  // Mount buttery-smooth scroll hooks
-  useLenis();
 
   // Fine-tuned SEO Metadata
   const seo = {
@@ -97,5 +95,13 @@ export default function App() {
         <FloatingCTA />
       </div>
     </HelmetProvider>
+  );
+}
+
+export default function App() {
+  return (
+    <ReactLenis root options={LENIS_OPTIONS}>
+      <AppContent />
+    </ReactLenis>
   );
 }
